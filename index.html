@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap Stylesheet via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  <!-- fontawsome -->
+  <script src="https://kit.fontawesome.com/12f6c00720.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Local café</title>
+</head>
+<body>
+  <div class="container">
+    <!-- 1. NAVBAR: START -->
+    <nav class="navbar navbar-expand-lg py-3 fs-5">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="./index.html">
+          <img src="./img/logo.svg" alt="Café signboard" class="icon me-3" aria-current="page" />
+          Local Café
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!-- NAV-LINKS Section -->
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item text-end">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link" href="./contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <hr />
+  <!-- 1. NAVBAR: END -->
+
+  <div class="container">
+    <!-- 2. CAROUSEL START -->
+    <div id="bg" class="d-flex flex-column text-center justify-content-center">
+      <div>
+        <h3>Why You'll Love</h3>
+        <h1>Local Café!</h1>
+      </div>
+    </div>
+
+    <!-- 2. CAROUSEL END -->
+
+    <!-- 3. ROW ONE: TITLE -->
+    <div class="row my-3">
+      <div class="col-12">
+        <h2 class="display-4">about</h2>
+        <hr />
+      </div>
+    </div>
+
+    <!-- 4. ROW TWO: TEXT & FORM -->
+    <div class="row f-Archivo">
+      <!-- Start of Column-Left -->
+      <div class="col-12 col-lg-8">
+        <div class="pb-5">
+          <strong class="fs-3">The Heart of Our Coffee</strong>
+          <p class="lead pt-3">
+            At Local Café, we believe great coffee starts with exceptional beans. Our selection is sourced from local, sustainable farms, and roasted right here in Victoria to bring out the rich, nuanced flavors in every cup. Each batch is crafted to perfection, delivering a taste experience that’s both bold and smooth.
+          </p>
+        </div>
+
+        <div class="pt-3">
+          <strong class="fs-3">Hand-Selected Origins</strong>
+          <p class="lead pt-2 pb-4">
+            We partner with ethical suppliers who prioritize quality, freshness, and sustainable practices.
+          </p>
+          <strong class="fs-3">Perfectly Roasted</strong>
+          <p class="lead pt-2 pb-4">
+            Our beans are roasted locally, allowing us to offer unmatched freshness and flavor.
+          </p>
+          <strong class="fs-3">Flavor Profiles to Savor</strong>
+          <p class="lead pt-2">
+            From rich, chocolatey notes to bright, fruity accents, our beans bring a unique depth to each brew.
+          </p>
+        </div>
+      </div>
+      <!-- End of col-8 -->
+
+      <!-- Start of Column-Right (4/12) -->
+      <div class="col-lg-4 d-none d-lg-block">
+        <img src="./img/right.jpg" alt="Three portafilters which are contain latte art, ground coffee, and whole coffee beans arranged vertically are there" class="img-fluid" />
+      </div>
+      <!-- End of col-4 -->
+    </div>
+
+    <!-- 5. ROW THREE: SPECIALS TITLE -->
+    <div class="row my-3">
+      <div class="col-12">
+        <h2 class="display-4">Popular pastry</h2>
+        <hr />
+        <h3 class="text-end text-muted lead">Check out our top 3 pastry!</h3>
+      </div>
+    </div>
+
+    <!-- 6. ROW FOUR: SPECIALS CARDS -->
+    <div class="row f-Archivo">
+      <!-- Card 1 -->
+      <div class="col-12 col-lg-4 pb-5">
+        <div class="card featureCard">
+          <img src="./img/pastry1.jpg" class="card-img-top img-fluid" alt="croissant sandwich "/>
+          <div class="card-body">
+            <h5 class="card-title fs-4">Croissant sandwich</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!
+            </p>
+            <a href="#" class="btn customBtnColor mt-3">ingredients</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-lg-4 pb-5">
+        <div class="card featureCard">
+          <img src="./img/pastry2.jpg" class="card-img-top img-fluid" alt="denish"/>
+          <div class="card-body">
+            <h5 class="card-title fs-4">Fruit Danish</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!
+            </p>
+            <a href="#" class="btn customBtnColor mt-3">ingredients</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-lg-4 pb-5">
+        <div class="card featureCard">
+          <img src="./img/pastry3.jpg" class="card-img-top img-fluid" alt="cinnamon roll"/>
+          <div class="card-body">
+            <h5 class="card-title fs-4">Cinnamon roll</h5>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!
+            </p>
+            <a href="#" class="btn customBtnColor mt-3">ingredients</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. FOOTER -->
+  <hr class="mt-5" />
+  <footer class="f-Archivo">
+    <div class="container">
+      <div class="footer row row-cols-2 row-cols-lg-4 text-center py-5">
+        <div class="col">
+          <strong class="fs-4">OPENING HOURS</strong>
+          <p class="lead">Mon - Sun : 7am - 3pm</p>
+        </div>
+        <div class="col">
+          <strong class="fs-3">CONTACT</strong>
+          <p class="lead">04 1234 5678</p>
+          <p class="lead">contact@localcafe.au</p>
+        </div>
+        <div class="col">
+          <strong class="fs-4">ADDRESS</strong>
+          <p class="lead">123 Street name</p>
+          <p class="lead">Moorabbin VIC 3189</p>
+        </div>
+        <div class="col">
+          <strong class="fs-4">FOLLOW US</strong>
+          <p class="fs-1">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="text-center py-3">&copy; Mooarabin Local Café</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

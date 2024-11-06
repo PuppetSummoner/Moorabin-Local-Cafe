@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap Stylesheet via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/12f6c00720.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css"/>
+  <title>Local café - Contact</title>
+</head>
+<body>
+  <div class="container">
+    <!-- 1. NAVBAR: START -->
+    <nav class="navbar navbar-expand-lg py-3 fs-5">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="./index.html">
+          <img src="./img/logo.svg" alt="Café signboard" class="icon me-3" />
+          Local Café
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!-- NAV-LINKS Section -->
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item text-end">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <hr />
+  <!-- 1. NAVBAR: END -->
+
+  <div class="container">
+    <div class="row my-5">
+      <!-- Form -->
+      <div class="col-12 col-lg-6">
+        <h1 class="display-3 pb-4">Contact Us</h1>
+        <form class="f-Archivo">
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingName"
+              placeholder="Name"
+            />
+            <label for="floatingInput">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingEmail"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+
+          <div class="form-floating pb-3">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea"
+              style="height: 8rem"
+            ></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+
+          <button type="submit" class="btn customBtnColor">Submit</button>
+        </form>
+      </div>
+
+      <!-- Google Map -->
+      <div class="col-12 col-lg-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25172.232660808426!2d145.03632464007373!3d-37.94143049688192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66c068d18ee03%3A0x5045675218cde30!2zMzE4OSDruYXthqDrpqzslYQg7KO8IOustOudvOu5iA!5e0!3m2!1sko!2sau!4v1730345932905!5m2!1sko!2sau" width=100% height=100% style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- container -->
+
+  <!-- 7. FOOTER -->
+  <hr class="mt-5" />
+  <footer class="f-Archivo">
+    <div class="container">
+      <div class="footer row row-cols-2 row-cols-lg-4 text-center py-5">
+        <div class="col">
+          <strong class="fs-4">OPENING HOURS</strong>
+          <p class="lead">Mon - Sun : 7am - 3pm</p>
+        </div>
+        <div class="col ">
+          <strong class="fs-3">CONTACT</strong>
+          <p class="lead">04 1234 5678</p>
+          <p class="lead">contact@localcafe.au</p>
+        </div>
+        <div class="col">
+          <strong class="fs-4">ADDRESS</strong>
+          <p class="lead">123 Street name</p>
+          <p class="lead">Moorabbin VIC 3189</p>
+        </div>
+        <div class="col">
+          <strong class="fs-4">FOLLOW US</strong>
+          <p class="fs-1">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="text-center py-3">&copy; Mooarabin Local Café</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

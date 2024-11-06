@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap Stylesheet via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- fontawsome -->
+  <script src="https://kit.fontawesome.com/12f6c00720.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Local café - Menu</title>
+</head>
+<body>
+  <div class="container">
+    <!-- 1. NAVBAR: START -->
+    <nav class="navbar navbar-expand-lg py-3 fs-5">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="./index.html">
+          <img src="./img/logo.svg" alt="Café signboard" class="icon me-3"/>
+          Local Café
+        </a>
+          
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!-- NAV-LINKS Section -->
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item text-end">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link active" aria-current="page" href="#">Menu</a>
+            </li>
+            <li class="nav-item text-end">
+              <a class="nav-link" href="./contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>  
+  <hr/>
+  <!-- 1. NAVBAR: END -->
+
+  <div class="container">
+    <!-- Menu -->
+    <div id="subbg" class="d-flex flex-column text-center justify-content-center">
+      <h1>MENU</h1>
+    </div>
+    <!-- Menu end -->
+
+    <!-- ROW TITLE -->
+    <!-- <div class="row my-3">
+      <div class="col-12 col-md">
+        <h2 class="display-4">Beverages</h2>
+        <hr />
+      </div>
+      <div class="col-12 col-md">
+        <h2 class="display-4">Pastries</h2>
+        <hr />
+      </div>
+    </div>   -->
+
+    <div class="row f-Archivo">
+      <!-- Start of Column-left -->
+      <div class="col-12 col-md">
+        <!-- Beverages -->
+        <div class="col-12 col-md my-3">
+          <h2 class="display-4 f-Bebas">Beverages</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-6 pb-3">
+            <!-- White -->
+            <div class="d-flex flex-row justify-content-between">
+              <strong class="fs-3 pb-2">White</strong>
+              <p class="fs-3">5.0</p>
+            </div>
+            <p class="lead pb-1">Flat White</p>
+            <p class="lead pb-1">Latte</p>
+            <p class="lead pb-1">Cappuccino</p>
+            <p class="lead pb-1">Piccolo</p>
+          </div>
+          <!-- Black -->
+          <div class="col-6 pb-3">
+            <div class="d-flex flex-row justify-content-between">
+              <strong class="fs-3 pb-2">Black</strong>
+              <p class="fs-3">5.0</p>
+            </div>
+            <p class="lead pb-1">Short Black</p>
+            <p class="lead pb-1">Long Black</p>
+          </div>
+          <!-- Tea -->
+          <div class="col-6 pb-3">
+            <div class="d-flex flex-row justify-content-between">
+              <strong class="fs-3 pb-2">Tea</strong>
+              <p class="fs-3">4.5</p>
+            </div>
+            <p class="lead pb-1">English Breakfast</p>
+            <p class="lead pb-1">Peppermint</p>
+            <p class="lead pb-1">Green</p>
+            <p class="lead pb-1">Chamomile</p>
+            <p class="lead pb-1">Earl Gray</p>
+          </div>
+          <!-- Others -->
+          <div class="col-6 pb-3">
+            <div class="d-flex flex-row justify-content-between">
+              <strong class="fs-3 pb-2">Other</strong>
+              <p class="fs-3">5.0</p>
+            </div>
+            <p class="lead pb-1">Hot Chocolate</p>
+            <p class="lead pb-1">Mocha</p>
+            <p class="lead pb-1">Chi Latte</p>
+          </div>
+          <!-- Extras -->
+          <div class="col-6 pb-3">
+            <div class="d-flex flex-row justify-content-between">
+              <strong class="fs-3 pb-2">Extras</strong>
+              <p class="fs-3">0.6</p>
+            </div>
+            <p class="lead pb-1">Extra shot</p>
+            <p class="lead pb-1">Decaf</p>
+            <p class="lead pb-1">Syrup - Caramel, Hazelnut, Vanilla</p>
+          </div>
+          <!-- Alt milks -->
+          <div class="col-6 pb-3">
+            <div class="d-flex flex-row justify-content-between">
+              <strong class="fs-3 pb-2">Alt Milks</strong>
+              <p class="fs-3">1.0</p>
+            </div>
+            <p class="lead pb-1">Almond</p>
+            <p class="lead pb-1">Oat</p>
+            <p class="lead pb-1">Soy</p>
+            <p class="lead pb-1">Lactos free</p>
+          </div>
+        </div>
+        <!-- Beverages end -->      
+      </div>
+
+      <!-- Start of Column-Right -->
+      <div class="col-12 col-md">
+        <!-- Pastries -->
+        <div class="col-12 col-md my-3">
+          <h2 class="display-4 f-Bebas">Pastries</h2>
+          <hr />
+        </div>
+         <!-- Classic Croissant -->
+        <div class="d-flex flex-row justify-content-between">
+          <strong class="fs-3 pb-2">Classic Croissant</strong>
+          <p class="fs-3">7.0</p>
+        </div>
+        <p class="lead pb-3">Buttery, flaky, and golden—perfect on its own or with a touch of jam.</p>
+        <!-- Almond Croissant -->
+        <div class="d-flex flex-row justify-content-between">
+          <strong class="fs-3 pb-2">Almond Croissant</strong>
+          <p class="fs-3">8.0</p>
+        </div>
+        <p class="lead pb-3">Filled with sweet almond paste and topped with sliced almonds and powdered sugar.</p>
+        <!-- Croissant Sandwich -->
+        <div class="d-flex flex-row justify-content-between">
+          <strong class="fs-3 pb-2">Croissant Sandwich</strong>
+          <p class="fs-3">9.5</p>
+        </div>
+        <p class="lead pb-3">Flaky croissant with your choice of ham & cheese, turkey & avocado, or tomato & mozzarella.</p>
+        <!-- Fruit Danish -->
+        <div class="d-flex flex-row justify-content-between">
+          <strong class="fs-3 pb-2">Fruit Danish</strong>
+          <p class="fs-3">7.0</p>
+        </div>
+        <p class="lead pb-3">Layers of flaky pastry filled with custard and topped with seasonal fruits.</p>
+        <!-- Cinnamon Roll -->
+        <div class="d-flex flex-row justify-content-between">
+          <strong class="fs-3 pb-2">Cinnamon Roll</strong>
+          <p class="fs-3">7.5</p>
+        </div>
+        <p class="lead pb-3">A swirl of cinnamon and sugar, baked to perfection and drizzled with icing.</p>
+        <!-- Lemon Tart -->
+        <div class="d-flex flex-row justify-content-between">
+          <strong class="fs-3 pb-2">Lemon Tart</strong>
+          <p class="fs-3">8.0</p>
+        </div>
+        <p class="lead pb-3">A crisp pastry shell filled with tangy lemon custard and topped with a light dusting of powdered sugar.</p>
+      <!-- Pastries end -->      
+      </div>
+    </div>
+  </div> <!-- container -->
+
+
+  <!-- 7. FOOTER -->
+  <hr class="mt-5" />
+  <footer class="f-Archivo">
+    <div class="container">
+      <div class="footer row row-cols-2 row-cols-lg-4 text-center py-5">
+        <div class="col">
+          <strong class="fs-4">OPENING HOURS</strong>
+          <p class="lead">Mon - Sun : 7am - 3pm</p>
+        </div>
+        <div class="col ">
+          <strong class="fs-3">CONTACT</strong>
+          <p class="lead">04 1234 5678</p>
+          <p class="lead">contact@localcafe.au</p>
+        </div>
+        <div class="col">
+          <strong class="fs-4">ADDRESS</strong>
+          <p class="lead">123 Street name</p>
+          <p class="lead">Moorabbin VIC 3189</p>
+        </div>
+        <div class="col">
+          <strong class="fs-4">FOLLOW US</strong>
+          <p class="fs-1">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="text-center py-3">&copy; Mooarabin Local Café</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

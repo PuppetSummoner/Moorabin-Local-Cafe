@@ -1,0 +1,85 @@
+body {
+  background-color: #FDFDFD;
+  /* background-color: #fff7f2; */
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* CSS RESETS */
+p {
+  margin: 0;
+}
+
+#bg {
+  background: url("../img/coffee-beans.jpg") center center/cover;
+  /* height: 500px; */
+  color: #FDFDFD;
+}
+
+#bg h3 {
+  font-size: 4rem;
+  padding-top: 5rem;
+}
+
+#bg h1 {
+  font-size: 8rem;
+  padding-bottom: 5rem;
+}
+
+#subbg {
+  background: url("../img/coffee-beans.jpg") center center/cover;
+  color: #FDFDFD;
+}
+
+#subbg h1 {
+  font-size: 5rem;
+  padding: 4rem;
+}
+
+
+
+/* EXAMPLE OF BOOTSTRAP OVERWRITE - button colours */
+.customBtnColor {
+  background-color: #4E342E;
+  color: #FDFDFD;
+}
+.customBtnColor:hover {
+  background-color: #F5E9DA;
+  color: #000;
+}
+
+/* ADDITION OF OUR OWN CUSTOM CSS WITH BOOTSTRAP */
+.icon {
+  width: 2.5rem;
+}
+
+.footer {
+  width: 100%;
+  line-height: 60px;
+  font-size: 14px;
+}
+
+
+hr {
+  margin: 0px;
+}
+
+.f-Archivo {
+  font-family: "Archivo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.f-Bebas {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.footer a {
+  color: #000000;
+}
