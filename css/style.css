@@ -27,6 +27,19 @@ p {
   padding-bottom: 5rem;
 }
 
+
+@media (max-width: 400px) {
+  #bg h3{
+    font-size: 3rem;
+    padding-top: 4rem;
+  }
+  #bg h1 {
+    font-size: 7rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
 #subbg {
   background: url("../img/coffee-beans.jpg") center center/cover;
   color: #FDFDFD;
